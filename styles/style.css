@@ -61,24 +61,32 @@ footer {
     box-shadow: var(--shadow);
 }
 
+.dropper {
+    
+
+}
 
 h2 {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
     display: flex;
     justify-content: center;
     font-family: Forte;
     font-size: 100px;
-
+    animation: pulse 10s ease-in-out;
+    height: 400px;
+    padding: 200px;
+       
 }
 
-.gutter-right {
+.gutter-right-logo{
+    height: 2500px;
     margin-right: 20px;
+    animation: pulse 10s ease-in-out;
+    
 }
 
-.main-logo {
-    animation: pulse 5s infinite ease-in-out;
-}
+
 
 header img {
     height: 200px;

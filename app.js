@@ -11,7 +11,10 @@ const multiplyButton = document.getElementById('multiply-button');
 const subtractButton = document.getElementById('subtract-button');
 const divideButton = document.getElementById('divide-button');
 
+dropButton.addEventListener('click', handleDivideClick)
 sumButton.addEventListener('click', handleSumClick);
 multiplyButton.addEventListener('click', handleMultiplyClick);
 subtractButton.addEventListener('click', handleSubtractClick);
 divideButton.addEventListener('click', handleDivideClick);
+
+
